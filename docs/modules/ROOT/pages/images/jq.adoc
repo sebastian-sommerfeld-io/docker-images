@@ -1,0 +1,42 @@
+= {imagename}
+:imagename: jq
+
+Docker image for link:https://stedolan.github.io/jq[jq]. jq is a lightweight and flexible command-line JSON processor.
+
+[cols="1,4", options="header"]
+|===
+|What |Where to find
+|Repository |https://hub.docker.com/r/sommerfeldio/{imagename}
+|Pull Command |`docker pull sommerfeldio/{imagename}`
+|===
+
+== Requirements Overview
+. tbd ...
+
+== Quality Goals
+. Lint everything inside this repo
+. tbd ...
+
+== Building Block View / Whitebox Overall System
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+CAUTION: todo
+
+== Install
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+CAUTION: todo
+
+== Usage
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+CAUTION: todo
+
+== Risks and Technical Debts
+Scale for Probability and Impact: Low, Medium and High
+
+[cols="^1,2,5a,1,1,5a", options="header"]
+|===
+|# |Title |Description |Probability |Impact |Response
+|{counter:usage} |- |- |- |- |-
+|===

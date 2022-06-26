@@ -1,0 +1,40 @@
+---
+ls:
+  .adoc: kebab-case | SCREAMING_SNAKE_CASE
+  .puml: kebab-case
+
+  .json: kebab-case
+  .tf: kebab-case
+  .yml: kebab-case
+  .yaml: kebab-case
+
+  .sh: kebab-case
+
+  .css: kebab-case
+  .html: kebab-case
+  .js: kebab-case
+
+  Dockerfile: PascalCase
+  Vagrantfile: PascalCase
+  Jenkinsfile: PascalCase
+
+  .env: lowercase
+  .gitignore: lowercase
+  .gitkeep: lowercase
+
+ignore:
+  - .directoryvalidator.json
+  - .ls-lint.yml
+  - .terraform-docs.yml
+  - .yamllint.yml
+  - resources/common-assets/linters/.directoryvalidator.json
+  - resources/common-assets/linters/.ls-lint.yml
+  - resources/common-assets/linters/.yamllint.yml
+  - .idea
+  - .git
+  - node_modules
+  - target
+  - subdomain-docs/node_modules
+  - subdomain-docs/target
+  - subdomain-www/node_modules
+  - subdomain-www/target

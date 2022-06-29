@@ -26,7 +26,7 @@ echo -e "$LOG_INFO -------------------------------------------------------------
 echo -e "$LOG_INFO Run linter containers"
 
 echo -e "$LOG_INFO Lint filesystem structure"
-docker run -it --rm --volume "$(pwd):$(pwd)" --workdir "$(pwd)" pegasus/folderslint:latest folderslint
+docker run -it --rm --volume "$(pwd):$(pwd)" --workdir "$(pwd)" sommerfeldio/folderslint:latest folderslint
 
 echo -e "$LOG_INFO yamllint"
 docker run -it --rm --volume "$(pwd):/data" --workdir "/data" cytopia/yamllint:latest .

@@ -19,6 +19,7 @@ ls:
   Jenkinsfile: PascalCase
 
   .env: lowercase
+  .folderslintrc: lowercase
   .gitignore: lowercase
   .gitkeep: lowercase
 

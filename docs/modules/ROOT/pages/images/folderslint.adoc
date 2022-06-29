@@ -1,7 +1,7 @@
 = {imagename}
-:imagename: directory-validator
+:imagename: folderslint
 
-Docker image that ships with the link:https://www.npmjs.com/package/directory-validator[directory-validator] npm module.
+Docker image that ships with the link:https://github.com/denisraslov/folderslint[folderslint] npm module.
 
 [cols="1,4", options="header"]
 |===

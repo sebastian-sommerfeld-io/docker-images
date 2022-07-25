@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 LABEL maintainer="sebastian@sommerfeld.io"
 
-ENV VERSION="v4.2.0"
+ENV VERSION="v4.26.1"
 ENV BINARY="yq_linux_amd64"
 
 RUN apt-get update \

@@ -36,7 +36,7 @@ function buildImage() {
     cd "$1" || exit
 
     echo -e "$LOG_INFO Lint $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
-    docker run -i  --rm hadolint/hadolint:latest < Dockerfile
+    docker run -i --rm hadolint/hadolint:latest < Dockerfile
     echo -e "$LOG_DONE Finished linting"
 
     echo -e "$LOG_INFO Build $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"

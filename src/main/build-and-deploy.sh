@@ -42,6 +42,9 @@ function buildImage() {
     echo -e "$LOG_INFO Build $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
     docker build -t "$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG" .
     echo -e "$LOG_DONE Finished building $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
+
+    # todo ... scan image
+    # todo ... https://sommerfeld-io.atlassian.net/browse/SIO-231
   )
 }
 

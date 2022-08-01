@@ -31,12 +31,18 @@ function buildImage() {
     echo -e "$LOG_ERROR exit" && exit 8
   fi
 
-  echo -e "$LOG_INFO Building $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
+
   (
     cd "$1" || exit
+
+    echo -e "$LOG_INFO Lint $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
+    docker run -i  --rm hadolint/hadolint:latest < Dockerfile
+    echo -e "$LOG_DONE Finished linting"
+
+    echo -e "$LOG_INFO Build $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
     docker build -t "$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG" .
+    echo -e "$LOG_DONE Finished building $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
   )
-  echo -e "$LOG_DONE Finished building $P$LOCAL_IMAGE_PREFIX/$1:$IMAGE_TAG$D"
 }
 
 

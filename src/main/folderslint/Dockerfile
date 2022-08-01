@@ -1,4 +1,4 @@
 FROM node:lts-bullseye-slim
 LABEL maintainer="sebastian@sommerfeld.io"
 
-RUN npm install --global folderslint
+RUN npm install --location=global folderslint@1.2.0
